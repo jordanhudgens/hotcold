@@ -1,0 +1,80 @@
+html .startBackground {
+	background-color:#294f24;
+	background-image: -moz-linear-gradient(90deg, #294f24, #4b9446 50.0%);
+	background-image: -webkit-linear-gradient(90deg, #294f24, #4b9446 50.0%);
+	background-image: -o-linear-gradient(90deg, #294f24, #4b9446 50.0%);
+	background-image: -ms-linear-gradient(90deg, #294f24, #4b9446 50.0%);
+	background-image: linear-gradient(90deg, #294f24, #4b9446 50.0%);
+}
+
+html .colderBackground {
+	background-color:#03004f;
+	background-image: -moz-linear-gradient(90deg, #03004f, #0a0f94 50.0%);
+	background-image: -webkit-linear-gradient(90deg, #03004f, #0a0f94 50.0%);
+	background-image: -o-linear-gradient(90deg, #03004f, #0a0f94 50.0%);
+	background-image: -ms-linear-gradient(90deg, #03004f, #0a0f94 50.0%);
+	background-image: linear-gradient(90deg, #03004f, #0a0f94 50.0%);
+}
+
+html .warmerBackground {
+	background-color:#4f1919;
+	background-image: -moz-linear-gradient(90deg, #4f1919, #941313 50.0%);
+	background-image: -webkit-linear-gradient(90deg, #4f1919, #941313 50.0%);
+	background-image: -o-linear-gradient(90deg, #4f1919, #941313 50.0%);
+	background-image: -ms-linear-gradient(90deg, #4f1919, #941313 50.0%);
+	background-image: linear-gradient(90deg, #4f1919, #941313 50.0%);
+}
+
+html .finalBackground {
+	background-color:#7d7d2d;
+	background-image: -moz-linear-gradient(90deg, #7d7d2d, #aba615 50.0%);
+	background-image: -webkit-linear-gradient(90deg, #7d7d2d, #aba615 50.0%);
+	background-image: -o-linear-gradient(90deg, #7d7d2d, #aba615 50.0%);
+	background-image: -ms-linear-gradient(90deg, #7d7d2d, #aba615 50.0%);
+	background-image: linear-gradient(90deg, #7d7d2d, #aba615 50.0%);
+}
+
+h1 {
+	font-family: 'Lobster Two', cursive;
+	color: white;
+}
+
+body {
+	color: white;
+	font-family: 'Carme', sans-serif;
+	text-align: center;
+}
+
+#buttonClick {
+	background-color: #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Carme', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: poiner;
+    border:none;
+    padding: 5px;
+    opacity: 0.75;
+}
+
+#buttonClick:hover {
+    border: 1px gray;
+    opacity: 1.0;
+    box-shadow: 0px 0px 1px #777;
+    cursor: pointer;
+}
+
+.inputBox {
+	width: 30px;
+	height: 20px;
+	border: 1px solid #999999;
+	padding: 5px;
+	margin: 10px;
+}
+
+head {
+	margin-top: 75px;
+}
