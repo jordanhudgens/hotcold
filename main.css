@@ -25,6 +25,15 @@ html .warmerBackground {
 	background-image: linear-gradient(90deg, #4f1919, #941313 50.0%);
 }
 
+html .slightlyWarmer {
+    background-color:#6b2929;
+    background-image: -moz-linear-gradient(90deg, #6b2929, #ab6d6d 50.0%);
+    background-image: -webkit-linear-gradient(90deg, #6b2929, #ab6d6d 50.0%);
+    background-image: -o-linear-gradient(90deg, #6b2929, #ab6d6d 50.0%);
+    background-image: -ms-linear-gradient(90deg, #6b2929, #ab6d6d 50.0%);
+    background-image: linear-gradient(90deg, #6b2929, #ab6d6d 50.0%);
+}
+
 html .finalBackground {
 	background-color:#7d7d2d;
 	background-image: -moz-linear-gradient(90deg, #7d7d2d, #aba615 50.0%);
