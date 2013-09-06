@@ -73,7 +73,7 @@ $(document).ready(function () {
 		} 
         else if (hotter > colder)
 		{
-			$('#response2').text("You're getting warmer, and you're within 25!");
+			$('#response2').text("You're getting warmer, and you're within 25, just up a little bit!");
 			$( "#backgroundSelector" ).removeClass().addClass( "warmerBackground" );
 			console.log("warmer");
 		} 
