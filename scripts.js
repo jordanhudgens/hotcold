@@ -114,22 +114,25 @@ $(document).ready(function () {
 
 		var currentVal = parseInt($('#inputBox').val(), 10);
 
-        if (currentVal <= 0 || currentVal > 100 || currentVal == NaN)
+        if (currentVal <= 0 || currentVal > 100 || isNaN(currentVal))
         {
             alert("Oops, looks like you didn't enter a valid number, please try again and enter a number between 1 and 100");
         }
-        
-		if (guesses == 0 && (currentVal > 0 || currentVal < 101))
-		{
-            guess1(setRandom, currentVal);
-			guessArray.push(currentVal);
-		}
-		else if (guesses > 0 && (currentVal > 0 || currentVal < 101))
-		{
-            $('#response').empty();
-            followUps(setRandom, currentVal);
-            guessArray.push(currentVal);
-		}
+        else
+        {
+            if (guesses == 0 && (currentVal > 0 || currentVal < 101))
+            {
+                guess1(setRandom, currentVal);
+                guessArray.push(currentVal);
+            }
+            else if (guesses > 0 && (currentVal > 0 || currentVal < 101))
+            {
+                $('#response').empty();
+                followUps(setRandom, currentVal);
+                guessArray.push(currentVal);
+            }
+        }
+		
 		
 		console.log(guessArray);
 		
